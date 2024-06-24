@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffcc33, #ff6699);
+}
+
+h4 {
+    color: #fff;
+    margin-top: 50px;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.start {
+    margin-top: 20px;
+}
+
+#start-button {
+    display: inline-block;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+#start-button:hover {
+    transform: scale(1.1);
+}
+
+#start-button img {
+    border-radius: 50%;
+}
